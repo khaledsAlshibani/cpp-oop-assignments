@@ -1,0 +1,1 @@
+### This repository contains a collection of college OOP assignments with C++.

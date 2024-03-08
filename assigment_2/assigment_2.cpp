@@ -22,7 +22,7 @@ public:
         displayTime();
     }
 
-    void displayTime()
+    void displayTime() const
     {
         cout
             << (hours < 10 ? "0" : "") << hours << ":"
@@ -30,7 +30,7 @@ public:
             << (seconds < 10 ? "0" : "") << seconds << endl;
     }
 
-    void mergeTimes(Time t1, Time t2)
+    void mergeTimes(Time t1, Time t2) 
     {
         hours = t1.hours + t2.hours;
         minutes = t1.minutes + t2.minutes;
